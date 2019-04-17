@@ -1,0 +1,431 @@
+html,
+body{
+	width: 100%;
+	background-color: #fff;
+	font-family: 'Open Sans', 'Roboto', sans-serif;
+  	overflow-x: hidden;
+}
+
+/*test-scroll*/
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: inline-block;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+/*Sticky Navabr Css*/
+.is-sticky {
+    width: 100%;
+    z-index: 9999;
+    position: absolute;
+}
+
+.is-sticky .sticky {
+    box-shadow: 0px 0px 3px 0px #aaa;
+}
+
+.menu-area .sticky{
+	background: #fff;
+}
+
+.navbar-voice {
+	background-color: transparent;
+	border-color: transparent;
+}
+
+/*Navbar Css*/
+.kl-nav {
+	padding: 0;
+	margin-right: 15px;
+}
+
+
+
+
+/*Background-Image Css*/
+.wrapper {
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.style-background {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-color: #22272d99;
+	z-index: 2;
+	opacity: 0.8;
+}
+
+.container-flex {
+	text-align: center;
+}
+
+.text {
+	padding-top: 14em;
+}
+
+.text > h1 {
+	color: #fff;
+	font-size: 48px;
+}
+
+.book-button .btn-default {
+	height: 50px;
+	width: 200px;
+	border-color: #fff;
+	background-color: transparent;
+	border-radius: 150px;
+	margin-top: 22px;
+	color: #fff;
+}
+
+.book-button .btn-default:hover {
+	background-color: #333;
+}
+
+
+
+/*ABOUT ZUBY CSS*/
+.container-about {
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.zuby-image img {
+	display: block;
+	max-height: auto;
+	max-width: 100%;
+}
+
+.margin-left {
+	margin-left: 35px;
+}
+
+.zuby-text h1 {
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.zuby-paragraph h4 {
+	font-size: 16px;
+	color: #646464;
+	line-height: 28px;
+}
+
+.all-icons {
+	margin-top: 2.5em;
+}
+
+.fa-telegram {
+	font-size: 48px;
+	color: #333333;
+}
+
+.fa-yelp {
+	font-size: 48px;
+	color: #333333;
+}
+
+.font-icon h4 {
+	font-size: 16px;
+	color: #646464;
+	font-weight: bold;
+	padding-top: 22px;
+}
+
+.font-icon {
+	margin-bottom: 2.5em;
+}
+
+.fa-umbrella {
+	font-size: 48px;
+	color: #333333;
+}
+
+.fa-user-md {
+	font-size: 48px;
+	color: #333333;
+}
+
+
+/*TOPICS CSS*/
+.topic-header h1 {
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 21px;
+	color: #1c1c1c;
+	padding-top: 7px;
+}
+
+.topic-header {
+	height: 34px;
+	color: #1c1c1c;
+	border-left: 4px solid #333333;
+	padding-left: 15px;
+}
+
+.topic-session {
+	margin-left: 20px;
+}
+
+.topic-icons {
+	margin-top: 100px;
+}
+
+.fa-spinner {
+	color: #49494a;
+	font-size: 46px;
+}
+
+.fa-video-camera {
+	color: #49494a;
+	font-size: 46px;
+}
+
+.fa-microphone {
+	color: #49494a;
+	font-size: 46px;
+}
+
+.fa-flag-checkered {
+	color: #49494a;
+	font-size: 46px;
+}
+
+.main-header h4 {
+	font-size: 18px;
+	color: #49494a;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.topic-paragraph p {
+	font-size: 18px;
+	line-height: 28px;
+	color: #6e6e6e;
+}
+
+/*SPEAKING CSS*/
+.container-speaking {
+	margin-top: 50px;
+}
+
+.speaker-logos {
+	margin-top: 50px;
+}
+
+/*.logo-section
+{
+	width: 100%;
+}*/
+
+.logo-section img {
+	max-height: 70px;
+	max-width: 130px;
+}
+
+
+/*EVENT & SEMINARS CSS*/
+.container-seminar {
+	margin-top: 50px;
+}
+
+.event-seminar {
+	margin-top: 50px;
+}
+
+
+/*AWARDS CSS*/
+.container-awards {
+	margin-top: 50px;
+	padding-bottom: 100px;
+	background-color: #eee;
+}
+
+
+/*PROJECTS CSS*/
+.container-projects {
+	margin-top: 50px;
+}
+
+.project-section {
+	margin-top: 50px;
+}
+
+.show-projects img {
+	height: auto;
+	max-width: 100%;
+	display: block;
+}
+
+.project-text h1 {
+	font-size: 30px;
+	color: #1e1e1e;
+	font-weight: 400;
+}
+
+.project-paragraph p {
+	font-size: 16px;
+	line-height: 30px;
+	color: #212121;
+}
+
+.project-button .btn-default {
+	height: 45px;
+	width: 150px;
+	border-radius: 0px;
+	border-color: #000;
+	font-size: 12px;
+	background-color: #fff;
+}
+
+.project-button .btn-default:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+
+/*HERO SECTION*/
+.container-hero {
+	height: 45vh;
+	width: 100%;
+	background-color: #232425;
+	
+}
+
+.hero-section {
+	text-align: center;
+	margin-top: 70px;
+}
+
+.hero-section h2 {
+	color: #fff;
+}
+
+.hero-button .btn-default{
+	height: 50px;
+	width: 150px;
+	border-radius: 0px;
+	background-color: #49494a;
+	font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 22px;
+}
+
+.hero-button .btn-default:hover {
+	background: #000;
+}
+
+
+/*FOOTER SECTION*/
+.topic-session {
+	margin-bottom: 76px;
+	padding-top: 34px;
+}
+
+.topic-header h1 {
+	color: #1c1c1c;
+}
+
+.foot-paragraph {
+	font-size: 16px;
+	color: #646464;
+	line-height: 21px;
+	padding-top: 28px;
+	font-weight: 500;
+	margin-left: -22px;
+}
+
+.social-links {
+	list-style: none;
+}
+
+.social-links li {
+	display: inline-block;
+	padding: 0;
+}
+
+.footer-icons {
+	margin: 45px 0px 0px 0px;
+}
+
+.social-links li a {
+	margin-right: 8px;
+	margin-left: 8px;
+}
+
+
+.social-links li  a {
+	border-radius: 26px;
+	height: 44px;
+	width: 44px;
+	border: 2px solid #333333;
+	font-size: 16px;
+	text-align: center;
+	background-color: #fff;
+	padding: 11px 0px 0px 0px;
+	margin: 0 9px 0px 0px;
+}
+
+.social-links li a:hover{
+	background: #000;
+	color: #fff;
+}
+
+
+
+
+
+/*Mobile Responsive*/
+.speaker-logos {*/
+	position: relative;
+	width: 90%;
+	margin: 50px auto 0;
+	height: auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	grid-template-rows: auto 1fr auto;
+	grid-gap: 5px;
+}
