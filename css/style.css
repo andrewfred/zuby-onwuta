@@ -507,9 +507,6 @@ body{
 }
 
 
-
-
-
 /*Mobile Responsive*/
 @media only screen and (max-width: 767px) {
 	/* For mobile phones: */
@@ -689,6 +686,22 @@ body{
 	.google-logo {
 		margin-top: -70px;
 		height: 70px;
+	}
+	.kl-nav {
+		background: white;
+	}
+	.navbar-default .navbar-toggle {
+		border-color: snow;
+		margin-top: 15px;
+	}
+	.navbar-fixed-top {
+		height: 13%;
+	}
+	.wrapper {
+		height: 88vh;
+	}
+	.style-background {
+		height: 88%;
 	}
 }
 
