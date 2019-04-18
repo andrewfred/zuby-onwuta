@@ -668,16 +668,16 @@ body{
 		margin-top: 28px;
 	}
 	.pitchakid-logo {
-		margin-top: -95px;
+		margin-top: -29px;
 	}
 	.pitchblack-logo {
-		margin-top: -89px;
+		margin-top: -31px;
 	}
 	.wh-logo {
 		margin-top:40px;
 	}
 	.xsxw-logo {
-		margin-top: -78px;
+		margin-top: -303px;
 	}
 	.chick-logo {
 		margin-top: -70px;
@@ -702,6 +702,12 @@ body{
 	}
 	.style-background {
 		height: 88%;
+	}
+	.medic-logo {
+		margin-top: 8px;
+	}
+	.dive-logo {
+		margin-top: 8px;
 	}
 }
 
