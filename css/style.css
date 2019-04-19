@@ -53,7 +53,7 @@ body{
 /*Navbar Css*/
 .icon-bar{
 	background-color: #000;
-	margin-top: 22px;
+	margin-top: 14px;
 	border-width: 2px solid #000;
 }
 
@@ -693,11 +693,12 @@ body{
 	}
 	.navbar-default .navbar-toggle {
 		border-color: snow;
-		margin-top: -3px;
+		margin-top: -4px;
 		background-color: transparent
 	}
 	.navbar-fixed-top {
 		height: 10%;
+		background-color: white;
 	}
 	.wrapper {
 		height: 88vh;
@@ -712,11 +713,19 @@ body{
 		margin-top: 8px;
 	}
 	.text {
-		padding-top: 8em;
+		padding-top: 10em;
 	}
 	.logo {
-		width: 250px;
-		margin-top: -9px;
+		width: 218px;
+		margin-top: -14px;
+		height: 50px;
+	}
+	.text > h1 {
+		color: #fff;
+		font-size: 44px;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #000;
 	}
 }
 
