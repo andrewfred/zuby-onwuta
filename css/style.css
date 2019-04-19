@@ -109,6 +109,11 @@ body{
 	padding: 0;
 }
 
+.logo {
+	width: 250px;
+	margin-top: 11px;
+}
+
 
 /*Background-Image Css*/
 .wrapper {
@@ -282,11 +287,6 @@ body{
 }
 
 /*SPEAKING CSS*/
-.container-speaking {
-	margin-top: px;
-	margin-bottom: ;
-}
-
 .speaker-logos {
 	margin-top: 50px;
 }
@@ -689,13 +689,15 @@ body{
 	}
 	.kl-nav {
 		background: white;
+		margin-top: 0px;
 	}
 	.navbar-default .navbar-toggle {
 		border-color: snow;
-		margin-top: 15px;
+		margin-top: -3px;
+		background-color: transparent
 	}
 	.navbar-fixed-top {
-		height: 13%;
+		height: 10%;
 	}
 	.wrapper {
 		height: 88vh;
@@ -708,6 +710,13 @@ body{
 	}
 	.dive-logo {
 		margin-top: 8px;
+	}
+	.text {
+		padding-top: 8em;
+	}
+	.logo {
+		width: 250px;
+		margin-top: -9px;
 	}
 }
 
