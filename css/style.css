@@ -91,7 +91,8 @@ body{
     margin: 16px 22px 0px 22px;
     padding: 0;
     padding-bottom: 3px;
-    border-bottom: 2px solid #1c1c1c;
+	border-bottom: 2px solid #1c1c1c;
+	content: "";
 }
 
 .navbar-nav li a {
@@ -101,12 +102,14 @@ body{
     margin: 16px 22px 0px 22px;
 	padding: 0;
 	padding-bottom: 3px;
+	content: ""
 }
 
 .navbar-nav li:hover {
 	border-bottom: 2px solid #1c1c1c;
 	padding-bottom: 3px;
 	padding: 0;
+	content: "";
 }
 
 .logo {
@@ -130,7 +133,6 @@ body{
 	position: absolute;
 	background-color: #22272d99;
 	z-index: 2;
-	opacity: 0.8;
 }
 
 .container-flex {
@@ -240,10 +242,6 @@ body{
 	color: #1c1c1c;
 	border-left: 4px solid #333333;
 	padding-left: 15px;
-}
-
-.topic-session {
-	margin-left: 20px;
 }
 
 .topic-icons {
@@ -623,6 +621,7 @@ body{
 	}
 	.columbia-logo {
 		margin-top: 22px;
+		margin-left: -183px;
 	}
 	.design-logo {
 		margin-top: 39px;
@@ -726,6 +725,21 @@ body{
 	}
 	.navbar-default .navbar-toggle .icon-bar {
 		background-color: #000;
+	}
+	.container-speaking {
+		text-align: center;
+	}
+	.container-seminar {
+		text-align: center;
+	}
+	.container-awards {
+		text-align: center;
+	}
+	.container-projects {
+		text-align: center;
+	}
+	.container-media {
+		text-align: center;
 	}
 }
 

@@ -15,6 +15,7 @@
 	<link href="font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 
+	<!-- Script -->
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.js"></script>
 
@@ -22,7 +23,7 @@
 <body>
 
 	<!-- Main-Navabr -->
-	<nav class="navbar navbar-default navbar-fixed-top">
+	<nav class="navbar navbar-default navbar-fixed-top" id="home">
 		<div class="container navbar-container">
 			<div class="row">
 				<div class="navbar-header">
@@ -38,8 +39,8 @@
 					<ul class="nav navbar-nav navbar-right kl-nav">
 						<li class="active"><a href="#home">HOME</a></li>
 						<li><a href="#about">ABOUT US</a></li>
-						<li><a href="#topic">TOPICS</a></li>
-						<li><a href="#">EVENT & SEMINARS</a></li>
+						<li><a href="#topics">TOPICS</a></li>
+						<li><a href="#events">EVENT & SEMINARS</a></li>
 						<li><a href="#">CONTACT</a></li>
 					</ul>
 				</div>
@@ -58,7 +59,7 @@
 						<div class="col-md-3"></div>
 						<div class="col-md-6 text">
 							<p>
-								<h1>I am Keynote Speaker And Patentented Inventor of<br> "Think & Zoom"</h1>
+								<h1>Keynote Speaker And Inventor of<br> "Think & Zoom"</h1>
 							</p>
 							<p class="book-button">
 								<a href="#"><button class="btn btn-default btn-lg text-btn"><p>BOOK NOW!</p></button></a>
@@ -73,9 +74,9 @@
 
 
     <!-- ABOUT ZUBY -->
-    <div class="container container-about">
-    	<div class="row">
-    		<div class="container about-zuby">
+    <div class="container container-about" id="about">
+    	<div class="container">
+    		<div class="row about-zuby">
     			<div class="col-md-4">
     				<div class="zuby-image">
     					<img src="img/side-image-zuby.jpg">
@@ -85,14 +86,25 @@
     				<div class="margin-left">
 	    				<div class="zuby-text">
 	    					<p>
-	    						<h1 id="about">I'M ZUBY ONWUTA</h1>
+	    						<h1>ZUBY ONWUTA</h1>
 	    					</p>
 	    				</div>
 	    				<div class="zuby-paragraph">
 	    					<p>
-	    						<h4>A legally blind innovator, disability advocate, speaker and inventor of Think and Zoom: Brain Control for Blind Assistive Tech. 
-								Hardships from losing his medical dream, as well as, US Army and engineering careers to visual impairment, inspired him to invent “Think and Zoom”, a solution that reads and responds to human brain waves, to provide vision augmentation and reading assistance</h4>
-	    					</p>
+	    						<h4>A legally blind US Army veteran, Harvard trained innovator, 3x TEDx Speaker, Disability Advocate at US Congress and recipient of the President Obama Service award.</h4>
+							</p>
+							<p>
+								<h4>I studied Disruptive Innovation with Clayton Christensen at Harvard Business School, Healthcare Innovation at Harvard Medical School, Disciplined Entrepreneurship with Bill Aulet at MIT, and Engineering at University of Illinois.</h4>
+							</p>
+							<p>
+								<h4>My mission is to “Impact all people and empower them to pursue whatever they want to pursue”.</h4>
+							</p>
+							<p>
+								<h4>I leverage innovation to help 1.3 billion people with disabilities and I am the patented inventor of “Brain Control for Blind Assistive Tech”.</h4>
+							</p>
+							<p>
+								<h4>And I share my message through speaking, inspiring people going through adversity, and encouraging women and minorities into college and STEM.</h4>
+							</p>
 	    				</div>
 	    				<div class="zuby-header1">
 		    				<div class="zuby-text">
@@ -100,12 +112,12 @@
 		    						<h1>SPECIALIZES IN</h1>
 		    					</p>
 		    				</div>
-		    				<div class="all-icons">
+		    				<div class="row all-icons">
 			    				<div class="col-md-6 col-xs-6">
 			    					<div class="font-icon">
 			    						<span class="fa fa-telegram"></span>
 			    						<p>
-			    							<h4>Motivational Speaking</h4>
+			    							<h4>Speaking</h4>
 			    						</p>
 			    					</div>
 			    				</div>
@@ -113,18 +125,18 @@
 			    					<div class="font-icon">
 			    						<span class="fa fa-yelp"></span>
 			    						<p>
-			    							<h4>Design Thinking Speaking</h4>
+			    							<h4>Coaching </h4>
 			    						</p>
 			    					</div>
 			    				</div>
 			    			</div>
     					</div>
-    					<div class="zuby-header2">
+    					<div class="row zuby-header2">
     						<div class="col-md-6 col-xs-6">
     							<div class="font-icon">
     								<span class="fa fa-umbrella"></span>
     								<p>
-    									<h4>Design / Architecture</h4>
+    									<h4>Training</h4>
     								</p>
     							</div>
     						</div>
@@ -132,7 +144,7 @@
     							<div class="font-icon">
     								<span class="fa fa-user-md"></span>
     								<p>
-    									<h4>Innovation in eye & healthcare</h4>
+    									<h4>Workshops</h4>
     								</p>
     							</div>
     						</div>
@@ -145,28 +157,28 @@
 
 
     <!-- TOPICS -->
-    <div class="container container-topic">
+    <div class="container container-topic" id="topics">
     	<div class="row">
     		<div class="container fit-topic">
 	    		<div class="topic-session">
 	    			<div class="topic-header">
 	    				<p>
-	    					<h1 id="topics">TOPICS</h1>
+	    					<h1>TOPICS</h1>
 	    				</p>
 	    			</div>
 	    		</div>
-	    		<div class="container topic-icons">
+	    		<div class="row topic-icons">
 	    			<div class="col-md-3 col-sm-6 col-xs-12">
 	    				<div class="topic-section">
 	    					<div class="main-header">
 	    						<span class="fa fa-spinner"></span>
 	    						<p>
-	    							<h4>EVENT PLANNING</h4>
+	    							<h4>SPEAKING: OVERCOMING DISABILITY</h4>
 	    						</p>
 	    					</div>
 	    					<div class="topic-paragraph">
 	    						<p>
-	    							Zuby Onwuta is speaker on various topics, such as motivations, Design Thinking Speaking, Design / Architecture and other events
+	    							I talk about Overcoming Disability or adversity with Creative abilities to inspire 1.3 billion people with disabilities out of a 50% poverty & unemployment rate, by tapping into their creative abilities. 
 	    						</p>
 	    					</div>
 	    				</div>
@@ -176,12 +188,12 @@
 	    					<div class="main-header">
 	    						<span class="fa fa-video-camera"></span>
 	    						<p>
-	    							<h4>TRAINING COURSE</h4>
+	    							<h4>TRAINING COURSE: PROBLEMS TO SOLUTIONS</h4>
 	    						</p>
 	    					</div>
 	    					<div class="topic-paragraph">
 	    						<p>
-	    							As part of my training sessions i have travelled around the glob to educate people on the new innovative app launched. - Think & Zoom
+	    							I talk about Turning Personal Problems into Global Solutions, to help increase diversity in tech.
 	    						</p>
 	    					</div>
 	    				</div>
@@ -191,12 +203,12 @@
 	    					<div class="main-header">
 	    						<span class="fa fa-microphone"></span>
 	    						<p>
-	    							<h4>EVENTS & SEMINARS</h4>
+	    							<h4>COACHING: LEARNING HOW TO LEARN</h4>
 	    						</p>
 	    					</div>
 	    					<div class="topic-paragraph">
 	    						<p>
-	    							Think and Zoom participated in this event, and showed off "Kenti the bird", a brain controlled game, to about 100 participants.
+	    							I talk about how Learning how to learn saved me, inspire high school students to seek higher education. 
 	    						</p>
 	    					</div>
 	    				</div>
@@ -205,12 +217,13 @@
 	    				<div class="main-header">
 	    					<div class="fa fa-flag-checkered"></div>
 	    					<p>
-	    						<h4>PROGRAM HOST</h4>
+	    						<h4>WORKSHOP: STEMS LOOKS LIKE YOU</h4>
 	    					</p>
 	    				</div>
 	    				<div class="topic-paragraph">
 	    					<p>
-	    						Part of a team of visually impaired people, who visit Capitol Hill, Washington DC, annually, to lobby members of the US Congress.
+								I talk about STEM looks like you to inspire girls into STEM with stories of Dr. Patricia Bath, Gladys West, Katherine Johnson, Katie Bouman, Hadiyah Nicole-Green, Rear Admiral Grace Hopper, and many from KimberlusList!.
+								<a href="https://www.facebook.com/KimberlysSTEMList/"></a>
 	    					</p>
 	    				</div>
 	    			</div>
@@ -226,43 +239,43 @@
     		<div class="container topic-session">
     			<div class="speaker-header">
     				<p>
-    					<h1>SPEAKING</h1>
+    					<h1>SPEAKING LIST</h1>
     				</p>
     			</div>
     		</div>
-    		<div class="container speaker-logos">
-	    			<div class="col-md-2 col-sm-4 col-xs-6">
-	    				<div class="logo-section">
-	    					<img src="img/Speaking/united.jpg">
-	    				</div>
-	    			</div>
-	    			<div class="col-md-2 col-sm-4 col-xs-6">
-	    				<div class="logo-section">
-	    					<img src="img/Speaking/Foundation.jpg">
-	    				</div>
-	    			</div>
-	    			<div class="col-md-2 col-sm-4 col-xs-6">
-	    				<div class="logo-section">
-	    					<img src="img/Speaking/VisionShow.jpg" class="vision-logo">
-	    				</div>
-	    			</div>
-	    			<div class="col-md-2 col-sm-4 col-xs-6">
-	    				<div class="logo-section">
-	    					<img src="img/Speaking/sxsw.jpeg" class="sxsw-logo">
-	    				</div>
-	    			</div>
-	    			<div class="col-md-2 col-sm-4 col-xs-6">
-	    				<div class="logo-section">
-	    					<img src="img/Speaking/oaklawn.jpg" class="oaklawn-logo">
-	    				</div>
-	    			</div>
-	    			<div class="col-md-2 col-sm-4 col-xs-6">
-	    				<div class="logo-section">
-	    					<img src="img/Speaking/TAME.png" class="tame-logo">
-	    				</div>
-	    			</div>
+    		<div class="row speaker-logos">
+				<div class="col-md-2 col-sm-4 col-xs-6">
+					<div class="logo-section">
+						<img src="img/Speaking/united.jpg">
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6">
+					<div class="logo-section">
+						<img src="img/Speaking/Foundation.jpg">
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6">
+					<div class="logo-section">
+						<img src="img/Speaking/VisionShow.jpg" class="vision-logo">
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6">
+					<div class="logo-section">
+						<img src="img/Speaking/sxsw.jpeg" class="sxsw-logo">
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6">
+					<div class="logo-section">
+						<img src="img/Speaking/oaklawn.jpg" class="oaklawn-logo">
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6">
+					<div class="logo-section">
+						<img src="img/Speaking/TAME.png" class="tame-logo">
+					</div>
+				</div>
     		</div>
-    		<div class="container speaker-logos">
+    		<div class="row speaker-logos">
     			<div class="col-md-2 col-sm-4 col-xs-6">
     				<div class="logo-section">
     					<img src="img/Speaking/achieve.jpg" class="achieve-logo">
@@ -294,7 +307,7 @@
     				</div>
     			</div>
     		</div>
-    		<div class="container speaker-logos">
+    		<div class="row speaker-logos">
     			<div class="col-md-2 col-sm-4 col-xs-6">
     				<div class="logo-section">
     					<img src="img/Speaking/hospital.png" class="hospital-logo">
@@ -326,7 +339,7 @@
     				</div>
     			</div>
     		</div>
-    		<div class="container speaker-logos">
+    		<div class="row speaker-logos">
     			<div class="col-md-2 col-sm-4 col-xs-6">
     				<div class="logo-section">
     					<img src="img/Speaking/national.gif" class="national-logo">
@@ -358,7 +371,7 @@
     				</div>
     			</div>
     		</div>
-    		<div class="container speaker-logos">
+    		<div class="row speaker-logos">
     			<div class="col-md-2 col-sm-4 col-xs-6">
     				<div class="logo-section">
     					<img src="img/Speaking/rework.png" class="work-logo">
@@ -395,16 +408,16 @@
 
 
     <!-- EVENTS & SEMINARS -->
-    <div class="container container-seminar">
+    <div class="container container-seminar" id="events">
     	<div class="row">
     		<div class="container events-session">
     			<div class="event-head">
     				<p>
-    					<h1>EVENTS & SEMINARS</h1>
+    					<h1>SPEAKING VIDEOS</h1>
     				</p>
     			</div>
     		</div>
-    		<div class="container event-seminar">
+    		<div class="row event-seminar">
     			<div class="col-md-3 col-sm-6 col-xs-12">
     				<div class="video-session">
     					<iframe width="260" height="215" src="https://www.youtube.com/embed/HXVJDXCX2nc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -426,7 +439,7 @@
     				</div>
     			</div>
     		</div>
-    		<div class="container event-seminar-videos">
+    		<div class="row event-seminar-videos">
     			<div class="col-md-3 col-sm-6 col-xs-12">
     				<div class="video-session">
     					<iframe width="260" height="215" src="https://www.youtube.com/embed/KrwfFWk3x8I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -453,7 +466,7 @@
 
 
     <!-- AWARDS -->
-    <div class="container-fluid container-awards">
+    <div class="container container-awards">
     	<div class="row">
     		<div class="container awards-session">
     			<div class="awards-head">
@@ -461,105 +474,105 @@
     					<h1>AWARDS</h1>
     				</p>
     			</div>
+			</div>
+			<div class="container awards-page">
+				<div class="row awards-logos">
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<div class="logo-section">
+							<img src="img/Awards/MIT3.jpg">
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<div class="logo-section">
+							<img src="img/Awards/honor.png">
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<div class="logo-section">
+							<img src="img/Awards/USDCC.jpg" class="USDCC-logo">
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<div class="logo-section">
+							<img src="img/Awards/XSXW.jpeg" class="black-logo">
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<div class="logo-section">
+							<img src="img/Awards/austinblue.png" class="blue-logo">
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<div class="logo-section">
+							<img src="img/Awards/austinxx.png" class="austin-logo">
+						</div>
+					</div>
 				</div>
-				<div class="container awards-page">
-					<div class="container awards-logos">
-						<div class="col-md-2 col-sm-4 col-xs-6">
-							<div class="logo-section">
-								<img src="img/Awards/MIT3.jpg">
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-4 col-xs-6">
-							<div class="logo-section">
-								<img src="img/Awards/honor.png">
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-4 col-xs-6">
-							<div class="logo-section">
-								<img src="img/Awards/USDCC.jpg" class="USDCC-logo">
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-4 col-xs-6">
-							<div class="logo-section">
-								<img src="img/Awards/XSXW.jpeg" class="black-logo">
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-4 col-xs-6">
-							<div class="logo-section">
-								<img src="img/Awards/austinblue.png" class="blue-logo">
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-4 col-xs-6">
-							<div class="logo-section">
-								<img src="img/Awards/austinxx.png" class="austin-logo">
-							</div>
+				<div class="row awards-logos">
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<div class="logo-section">
+							<img src="img/Awards/cell.jpeg" class="cell-logo">
 						</div>
 					</div>
-					<div class="container awards-logos">
-						<div class="col-md-2 col-sm-4 col-xs-6">
-							<div class="logo-section">
-								<img src="img/Awards/cell.jpeg" class="cell-logo">
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-4 col-xs-6">
-							<div class="logo-section">
-								<img src="img/Awards/hack.jpeg" class="hack-logo">
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-4 col-xs-6">
-							<div class="logo-section">
-								<img src="img/Awards/hive.png" class="dive-logo">
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-4 col-xs-6">
-							<div class="logo-section">
-								<img src="img/Awards/medicine1.png" class="medic-logo">
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-4 col-xs-6">
-							<div class="logo-section">
-								<img src="img/Awards/nfb.gif" class="nfb-logo">
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-4 col-xs-6">
-							<div class="logo-section">
-								<img src="img/Awards/patent.jpg" class="patent-logo">
-							</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<div class="logo-section">
+							<img src="img/Awards/hack.jpeg" class="hack-logo">
 						</div>
 					</div>
-					<div class="container awards-logos">
-						<div class="col-md-2 col-sm-4 col-xs-6">
-							<div class="logo-section">
-								<img src="img/Awards/pitchakid.jpg" class="pitchakid-logo">
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-4 col-xs-6">
-							<div class="logo-section">
-								<img src="img/Awards/pitchblack.png" class="pitchblack-logo">
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-4 col-xs-6">
-							<div class="logo-section">
-								<img src="img/Awards/apple.jpg" class="apple-logo">
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-4 col-xs-6">
-							<div class="logo-section">
-								<img src="img/Awards/wh.jpg" class="wh-logo">
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-4 col-xs-6">
-							<div class="logo-section">
-								<img src="img/Awards//medicine1.png" class="drug-logo">
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-4 col-xs-6">
-							<div class="logo-section">
-								<img src="img/Awards/XSXW.jpeg" class="xsxw-logo">
-							</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<div class="logo-section">
+							<img src="img/Awards/hive.png" class="dive-logo">
 						</div>
 					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<div class="logo-section">
+							<img src="img/Awards/medicine1.png" class="medic-logo">
+						</div>
 					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<div class="logo-section">
+							<img src="img/Awards/nfb.gif" class="nfb-logo">
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<div class="logo-section">
+							<img src="img/Awards/patent.jpg" class="patent-logo">
+						</div>
+					</div>
+				</div>
+				<div class="row awards-logos">
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<div class="logo-section">
+							<img src="img/Awards/pitchakid.jpg" class="pitchakid-logo">
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<div class="logo-section">
+							<img src="img/Awards/pitchblack.png" class="pitchblack-logo">
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<div class="logo-section">
+							<img src="img/Awards/apple.jpg" class="apple-logo">
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<div class="logo-section">
+							<img src="img/Awards/wh.jpg" class="wh-logo">
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<div class="logo-section">
+							<img src="img/Awards//medicine1.png" class="drug-logo">
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<div class="logo-section">
+							<img src="img/Awards/XSXW.jpeg" class="xsxw-logo">
+						</div>
+					</div>
+				</div>
+			</div>
     	</div>
     </div>
 
@@ -574,7 +587,7 @@
     				</p>
     			</div>
     		</div>
-    		<div class="container project-section">
+    		<div class="row project-section">
     			<div class="col-md-4 col-sm-6">
     				<div class="show-projects">
     					<img src="img/Projects/tnz.png">
@@ -629,7 +642,7 @@
 
 
     <!-- MEDIA -->
-    <div class="container-fluid container-media">
+    <div class="container container-media">
     	<div class="row">
     		<div class="container media-session">
     			<div class="media-head">
@@ -637,105 +650,105 @@
     					<h1>MEDIA</h1>
     				</p>
     			</div>
+			</div>
+			<div class="container padding-media">
+				<div class="row media-logos">
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<div class="logo-section">
+							<img src="img/Media/austinblue.png">
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-12">
+						<div class="logo-section">
+							<img src="img/Media/columbia.png" class="columbia-logo">
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<div class="logo-section">
+							<img src="img/Media/design.png" class="design-logo">
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<div class="logo-section">
+							<img src="img/Media/disrupt.png" class="color-logo">
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<div class="logo-section">
+							<img src="img/Media/edu.jpg" class="education-logo">
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<div class="logo-section">
+							<img src="img/Media/cpafrica.png">
+						</div>
+					</div>
 				</div>
-				<div class="container padding-media">
-					<div class="container media-logos">
-						<div class="col-md-2 col-sm-4 col-xs-6">
-							<div class="logo-section">
-								<img src="img/Media/austinblue.png">
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-4 col-xs-12">
-							<div class="logo-section">
-								<img src="img/Media/columbia.png" class="columbia-logo">
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-4 col-xs-6">
-							<div class="logo-section">
-								<img src="img/Media/design.png" class="design-logo">
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-4 col-xs-6">
-							<div class="logo-section">
-								<img src="img/Media/disrupt.png" class="color-logo">
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-4 col-xs-6">
-							<div class="logo-section">
-								<img src="img/Media/edu.jpg" class="education-logo">
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-4 col-xs-6">
-							<div class="logo-section">
-								<img src="img/Media/cpafrica.png">
-							</div>
+				<div class="row media-logos">
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<div class="logo-section">
+							<img src="img/Media/inspire.png">
 						</div>
 					</div>
-					<div class="container media-logos">
-						<div class="col-md-2 col-sm-4 col-xs-6">
-							<div class="logo-section">
-								<img src="img/Media/inspire.png">
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-4 col-xs-6">
-							<div class="logo-section">
-								<img src="img/Media/itnews1.jpg">
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-4 col-xs-6">
-							<div class="logo-section">
-								<img src="img/Media/lagos.jpg" class="lagos-logo">
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-4 col-xs-6">
-							<div class="logo-section">
-								<img src="img/Media/medium.jpg" class="medium-logo">
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-4 col-xs-6">
-							<div class="logo-section">
-								<img src="img/Media/mitg.png" class="mitg-logo">
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-4 col-xs-6">
-							<div class="logo-section">
-								<img src="img/Media/mvm.jpg" class="mvm-logo">
-							</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<div class="logo-section">
+							<img src="img/Media/itnews1.jpg">
 						</div>
 					</div>
-					<div class="container media-logos">
-						<div class="col-md-2 col-sm-4 col-xs-6">
-							<div class="logo-section">
-								<img src="img/Media/techcable.png">
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-4 col-xs-6">
-							<div class="logo-section">
-								<img src="img/Media/technovator.jpg">
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-4 col-xs-6">
-							<div class="logo-section">
-								<img src="img/Media/united.jpg" class="united-logo">
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-4 col-xs-6">
-							<div class="logo-section">
-								<img src="img/Media/wework.jpg" class="wework-logo">
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-4 col-xs-6">
-							<div class="logo-section">
-								<img src="img/Media/zoomwhite.jpg" class="zoomwhite-logo">
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-4 col-xs-6">
-							<div class="logo-section">
-								<img src="img/Media/techafrica.jpg" class="techafrica-logo">
-							</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<div class="logo-section">
+							<img src="img/Media/lagos.jpg" class="lagos-logo">
 						</div>
 					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<div class="logo-section">
+							<img src="img/Media/medium.jpg" class="medium-logo">
+						</div>
 					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<div class="logo-section">
+							<img src="img/Media/mitg.png" class="mitg-logo">
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<div class="logo-section">
+							<img src="img/Media/mvm.jpg" class="mvm-logo">
+						</div>
+					</div>
+				</div>
+				<div class="row media-logos">
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<div class="logo-section">
+							<img src="img/Media/techcable.png">
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<div class="logo-section">
+							<img src="img/Media/technovator.jpg">
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<div class="logo-section">
+							<img src="img/Media/united.jpg" class="united-logo">
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<div class="logo-section">
+							<img src="img/Media/wework.jpg" class="wework-logo">
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<div class="logo-section">
+							<img src="img/Media/zoomwhite.jpg" class="zoomwhite-logo">
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<div class="logo-section">
+							<img src="img/Media/techafrica.jpg" class="techafrica-logo">
+						</div>
+					</div>
+				</div>
+			</div>
     	</div>
     </div>
 
@@ -759,8 +772,8 @@
 
     <!-- FOOTER -->
     <div class="container container-footer">
-    	<div class="row">
-    		<div class="container footer-session">
+    	<div class="container">
+    		<div class="row footer-session">
     			<div class="col-md-6 col-sm-6 col-xs-12">
     				<div class="footer-head">
     					<p>
@@ -768,7 +781,7 @@
     					</p>
 
     					<p class="foot-paragraph">
-    						Motivation speaker, inventor of Think and Zoom
+							Keynote speaker, inventor of Think and Zoom
     					</p>
     				</div>
     			</div>
@@ -778,7 +791,7 @@
     						<li><a href="" class="btn btn-default btn-md"><span class="fa fa-facebook"></span></a></li>
     						<li><a href="" class="btn btn-default btn-md"><span class="fa fa-twitter"></span></a></li>
     						<li><a href="" class="btn btn-default btn-md"><span class="fa fa-instagram"></span></a></li>
-    						<li><a href="" class="btn btn-default btn-md"><span class="fa fa-google-plus"></span></a></li>
+    						<li><a href="" class="btn btn-default btn-md"><span class="fa fa-youtube"></span></a></li>
     					</ul>
     				</div>
     			</div>
