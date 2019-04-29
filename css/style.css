@@ -170,6 +170,10 @@ body{
 	margin-bottom: 50px;
 }
 
+.zuby-image {
+	margin-top: 32px;
+}
+
 .zuby-image img {
 	display: block;
 	max-height: auto;
@@ -189,20 +193,20 @@ body{
 .zuby-paragraph h4 {
 	font-size: 16px;
 	color: #646464;
-	line-height: 28px;
+	line-height: 20px;
 }
 
 .all-icons {
-	margin-top: 2.5em;
+	margin-top: 0.5em;
 }
 
 .fa-telegram {
-	font-size: 48px;
+	font-size: 38px;
 	color: #333333;
 }
 
 .fa-yelp {
-	font-size: 48px;
+	font-size: 38px;
 	color: #333333;
 }
 
@@ -214,16 +218,16 @@ body{
 }
 
 .font-icon {
-	margin-bottom: 2.5em;
+	margin-bottom: 1.5em;
 }
 
 .fa-umbrella {
-	font-size: 48px;
+	font-size: 38px;
 	color: #333333;
 }
 
 .fa-user-md {
-	font-size: 48px;
+	font-size: 38px;
 	color: #333333;
 }
 
@@ -282,6 +286,12 @@ body{
 	font-size: 18px;
 	line-height: 28px;
 	color: #6e6e6e;
+}
+
+.topic-paragraph a {
+	font-size: 16px;
+	color: #6e6e6e;
+	line-height: 28px;
 }
 
 /*SPEAKING CSS*/
@@ -350,7 +360,6 @@ body{
 
 .project-header  {
 	padding-bottom: 15px;
-	padding-left: 22px;
 }
 
 .show-projects img {
