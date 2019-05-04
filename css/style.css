@@ -330,7 +330,7 @@ body{
 
 .topic-session {
 	margin-top: 50px;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 }
 
 .speaker-header h1 {
@@ -343,6 +343,14 @@ body{
 	font-size: 18px;
 	line-height: 28px;
 	color: #6e6e6e;
+	margin-bottom: 50px;
+}
+
+.speaker-header {
+	height: 34px;
+	color: #1c1c1c;
+	border-left: 4px soild #333333;
+	padding-left: 15px;
 }
 
 
@@ -350,6 +358,15 @@ body{
 /*SPEAKING CSS*/
 .speaker-logos {
 	margin-top: 50px;
+}
+
+.container-speaking {
+	margin-top: 50px;
+}
+
+.topic-session {
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .speaker-header {
@@ -802,6 +819,9 @@ body{
 	}
 	.container-media {
 		text-align: center;
+	}
+	.speaker-header p {
+		margin-bottom: 446px;
 	}
 }
 
