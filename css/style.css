@@ -76,6 +76,10 @@ body{
 
 .navbar-nav li a {
 	font-weight: bold;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 16px;
+	
 }
 
 .navbar-default .navbar-nav li a {
@@ -103,17 +107,15 @@ body{
 
 .cool-link:hover::after {
     width: 100%;
-    //transition: width .3s;
+    transition: width .3s;
 }
-
-
-
 
 
 .logo {
 	width: 250px;
 	margin-top: 11px;
 }
+
 
 
 /*Background-Image Css*/
