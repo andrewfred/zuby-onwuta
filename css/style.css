@@ -4,6 +4,7 @@ body{
 	background-color: #fff;
 	font-family: 'Open Sans', 'Roboto', sans-serif;
 	overflow-x: hidden;
+	padding: 0;
 }
 
 /*test-scroll*/
@@ -122,9 +123,8 @@ body{
 .wrapper {
 	height: 100vh;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: top;
 	background-size: cover;
-	display: block;
 }
 
 .style-background {
@@ -132,15 +132,15 @@ body{
 	width: 100%;
 	position: absolute;
 	background-color: #22272d99;
-	z-index: 2;
 }
+
 
 .container-flex {
 	text-align: center;
 }
 
 .text {
-	padding-top: 14em;
+	padding-top: 19em;
 }
 
 .text > h1 {
