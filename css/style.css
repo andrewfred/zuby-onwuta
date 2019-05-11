@@ -370,28 +370,30 @@ figure.snip0016 {
 	transition: all 0.5s;
 	-webkit-transition-delay: 0.6s;
 	transition-delay: 0.6s;
-  }
+	}
+	
+
   figure.snip0016 h2,
   figure.snip0016 p {
 	margin: 0 0 5px;
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s,-webkit-transform 0.35s,-moz-transform 0.35s,-o-transform 0.35s,transform 0.35s;
-  }
+	}
+	
+
   figure.snip0016 h2 {
 	word-spacing: -0.15em;
-	font-weight: 300;
 	text-transform: uppercase;
 	-webkit-transform: translate3d(30%, 0%, 0);
 	transform: translate3d(30%, 0%, 0);
 	-webkit-transition-delay: 0.3s;
 	transition-delay: 0.3s;
+	font-size: 18px;
   }
-  figure.snip0016 h2 span {
-	font-weight: 600;
-  }
+	
+	
   figure.snip0016 p {
-	font-weight: 200;
 	-webkit-transform: translate3d(0%, 30%, 0);
 	transform: translate3d(0%, 30%, 0);
 	-webkit-transition-delay: 0s;
