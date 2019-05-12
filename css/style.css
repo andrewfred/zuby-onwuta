@@ -337,9 +337,13 @@ body{
 .book-section .btn-default {
 	height: 50px;
 	width: 200px;
-	border-radius: 80px;
+	border-radius: 0px;
 	background-color: #333;
 	color: #fff;
+}
+
+.book-section .btn-default:hover {
+	background-color: #000;
 }
 
 /* Events Gallery Css */
