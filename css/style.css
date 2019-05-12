@@ -337,7 +337,7 @@ body{
 .book-section .btn-default {
 	height: 50px;
 	width: 200px;
-	border-radius: 0px;
+	border-radius: 80px;
 	background-color: #333;
 	color: #fff;
 }
