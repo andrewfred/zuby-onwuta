@@ -324,6 +324,24 @@ body{
 	line-height: 28px;
 }
 
+
+/* Book Now Button */
+.container-button {
+	text-align: center;
+}
+
+.book-now {
+	margin-top: 50px;
+}
+
+.book-section .btn-default {
+	height: 50px;
+	width: 200px;
+	border-radius: 80px;
+	background-color: #333;
+	color: #fff;
+}
+
 /* Events Gallery Css */
 figure.snip0016 {
 	color: #fff;
