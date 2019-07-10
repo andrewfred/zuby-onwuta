@@ -196,7 +196,13 @@ body{
 .zuby-paragraph h4 {
 	font-size: 16px;
 	color: #646464;
-	line-height: 20px;
+	line-height: 12px;
+}
+
+.short-paragraph h4 {
+	font-size: 16px;
+	color: #646464;
+	line-height: 12px;
 }
 
 .all-icons {
