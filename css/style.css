@@ -205,6 +205,10 @@ body{
 	line-height: 12px;
 }
 
+.short-paragraph {
+	padding-top: 22px;
+}
+
 .all-icons {
 	margin-top: 0.5em;
 }
@@ -524,6 +528,7 @@ figure.snip0016 {
 	max-height: 70px;
 	max-width: 130px;
 }
+
 
 
 /*EVENT & SEMINARS CSS*/
