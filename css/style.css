@@ -181,6 +181,7 @@ body{
 	display: block;
 	max-height: auto;
 	max-width: 100%;
+	margin-top: 120px;
 }
 
 .margin-left {
@@ -196,13 +197,13 @@ body{
 .zuby-paragraph h4 {
 	font-size: 16px;
 	color: #646464;
-	line-height: 12px;
+	line-height: 17px;
 }
 
 .short-paragraph h4 {
 	font-size: 16px;
 	color: #646464;
-	line-height: 12px;
+	line-height: 17px;
 }
 
 .short-paragraph {
