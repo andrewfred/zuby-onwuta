@@ -65,13 +65,13 @@ body{
 
 .navbar-fixed-top {
 	background-color: white;
-	height: 18%;
+	height: 14%;
 	box-shadow: 0px 0px 3px 0px #aaa;
 
 }
 
 .kl-nav {
-	padding-top: 38px;
+	padding-top: 28px;
 }
 
 .navbar-nav li a {
@@ -113,7 +113,7 @@ body{
 
 .logo {
 	width: 250px;
-	margin-top: 11px;
+	margin-top: 8px;
 }
 
 
@@ -138,17 +138,22 @@ body{
 	width: 100px;
 }
 
-.container-flex {
-	text-align: center;
+.container-flex { 
+	text-align: left;
 }
 
 .text {
-	padding-top: 19em;
+	padding-top: 16em;
 }
 
 .text > h1 {
 	color: #fff;
 	font-size: 48px;
+}
+
+.text > h2 {
+	color: #fff;
+	font-size: 38px;
 }
 
 .book-button .btn-default {
@@ -943,7 +948,7 @@ figure.snip0016 {
 	}
 	.logo {
 		width: 218px;
-		margin-top: -14px;
+		margin-top: -8px;
 		height: 50px;
 	}
 	.text > h1 {
