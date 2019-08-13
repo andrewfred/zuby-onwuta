@@ -130,7 +130,7 @@ body{
 	height: 100%;
 	width: 100%;
 	position: absolute;
-	background-color: #22272d99;
+	background-color: #03040470;
 }
 
 .text img {
@@ -139,11 +139,11 @@ body{
 }
 
 .container-flex { 
-	text-align: left;
+	text-align: center;
 }
 
 .text {
-	padding-top: 16em;
+	padding-top: 19em;
 }
 
 .text > h1 {
