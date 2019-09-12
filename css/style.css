@@ -944,7 +944,7 @@ figure.snip0016 {
 		margin-top: 8px;
 	}
 	.text {
-		padding-top: 10em;
+		padding-top: 11em;
 	}
 	.logo {
 		width: 218px;
@@ -975,6 +975,11 @@ figure.snip0016 {
 	}
 	.speaker-header p {
 		margin-bottom: 446px;
+	}
+	.container-hero {
+		height: 35vh;
+		width: 100%;
+		background-color: #232425;
 	}
 }
 
