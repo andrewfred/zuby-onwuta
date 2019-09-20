@@ -143,7 +143,7 @@ body{
 }
 
 .text {
-	padding-top: 19em;
+	padding-top: 16em;
 }
 
 .text > h1 {
@@ -924,7 +924,7 @@ figure.snip0016 {
 	}
 	.navbar-default .navbar-toggle {
 		border-color: snow;
-		margin-top: -4px;
+		margin-top: 2px;
 		background-color: transparent
 	}
 	.navbar-fixed-top {
@@ -976,6 +976,7 @@ figure.snip0016 {
 	.speaker-header p {
 		margin-bottom: 446px;
 	}
+
 }
 
 
